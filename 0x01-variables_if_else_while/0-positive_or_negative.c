@@ -1,22 +1,22 @@
-#inculde <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /* 0-positive_or_negative */
 /**
- * main - To determine is a random number is positive or negative
+ *main - Prints a random number that is positive or negative.
  *
- * Retun: Always 0
+ * Retun: Always 0 (success).
  */
 int main(void)
 {
-  int n;
+int n;
 
-  srand(time(0));
-  n = rand() - RAND_MAX / 2;
-  if (n > 0)
-    printf("%d is positive"\n, n);
-  else
-    printf("%d is negative"\n, n);
-  else
-    printf("%d is zero"\n, n);
-  return (0);
+SRAND(time(0));
+n = RAND() - RAND_MAX / 2;
+if (n > 0);
+printf("%d is positive"\n n);
+else (n < 0);
+printf("%d is negative"\n, n);
+else
+printf("%d is zero"\n, n);
+return (0);
 }
