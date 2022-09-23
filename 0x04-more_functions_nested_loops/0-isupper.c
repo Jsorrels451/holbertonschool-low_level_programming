@@ -9,9 +9,9 @@ int _isupper(int c);
 int main(void)
 {
   char c;
-  c = 'A';
+  if (c = 'A') then
   _putchar(c);
-  c = 'a';
+  if (c = 'a') then
   _putchar(c);
 return (0);
 }
