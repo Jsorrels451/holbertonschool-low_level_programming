@@ -1,4 +1,5 @@
 #include <main.h>
+#include <stdio.h>
 /**
 * main - check the code
 *
@@ -7,10 +8,10 @@
 int _isupper(int c);
 int main(void)
 {
-int c;
-if (c = 'A')
-return (1);
-if (c = 'a') 
-else
+  char c;
+  c = 'A';
+  printf("%c: %d\n", c, _isupper(c));
+  c = 'a';
+  printf("%c: %d\n", c, _isupper(c));
 return (0);
 }
