@@ -11,6 +11,7 @@ int main(void)
   char c;
   if (c = 'A') then
   _putchar(c);
+  return (1);
   if (c = 'a') then
   _putchar(c);
 return (0);
