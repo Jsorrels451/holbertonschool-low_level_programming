@@ -8,11 +8,11 @@
 int _isupper(int c);
 {
 char c;
-if (c >= 65 && c <= 90)
+if (c >= 'A' && c <= 'Z')
 {
 return (1);
 }
-if (c >= 97 && c <= 122)
+if (c >= 'a' && c <= 'z')
 {
 return (0);
 }
