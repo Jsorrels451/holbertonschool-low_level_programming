@@ -7,7 +7,6 @@
 * Return: 1 If character is uppercase.
 */
 int _isupper(int c);
-int main(void)
 {
 char c;
 if (c >= 65 && c <= 90)
