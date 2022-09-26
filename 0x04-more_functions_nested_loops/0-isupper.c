@@ -5,11 +5,10 @@
 * @c: An input character.
 * Return: 1 If character is uppercase.
 */
-int main(void)
+int _isupper(int c);
 {
-char c;
-if (c >= 'A' && c <= 'Z')
+if ((c >= 'A') && (c <= 'Z'))
 return (1);
-if (c >= 'a' && c <= 'z')
+else
 return (0);
 }
