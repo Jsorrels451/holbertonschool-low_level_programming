@@ -1,11 +1,10 @@
 #include "main.h"
 /**
-* main - Entry point
-* _isdigit - Checks for a digit.
+* _isdigit - A function that checks for a digit 0 - 9
 * @c: An input character
-* Return: 1 If character is a digit.
+* Return: 1 if character is a digit.
 */
-int isdigit(int c)
+int _isdigit(int c)
 {
 int c;
 if (c >= '0', c <= '9', c++)
