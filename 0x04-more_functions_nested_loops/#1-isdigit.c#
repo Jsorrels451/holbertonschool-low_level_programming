@@ -1,8 +1,0 @@
-#include "main.h"
-/**
-* main - Entry point
-* _isdigit - Checks for a digit.
-* @c: An input character
-* Return: 1 If character is a digit.
-*/
-int isdigit(int c);
