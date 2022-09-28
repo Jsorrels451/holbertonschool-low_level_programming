@@ -11,10 +11,6 @@ if (n > 0)
 {
 for (; i < n; i++)
 _putchar('_');
-print_line(0,/n);
-print_line(2,/n);
-print_line(10,/n);
-print_line(-4,/n);
 }
 _putchar('\n');
 }
